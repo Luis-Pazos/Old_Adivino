@@ -12,7 +12,7 @@ public class Aciertos {
         //System.out.print(x);
         Scanner sc = new Scanner(System.in);
         do {
-            System.out.print("\nIntroduce el valor de X: ");
+            System.out.print("\nIntroduce el valor de X: (entre 1 y 50)");
             n = sc.nextInt();
             if (n > x) {
                 System.out.print("Te pasaste Amigo");
